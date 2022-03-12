@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-font: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--body-font);
+  display: grid;
+  place-items: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask12126%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(7%2c 24%2c 41%2c 1)'%3e%3c/rect%3e%3crect width='348' height='348' clip-path='url(%26quot%3b%23SvgjsClipPath12127%26quot%3b)' x='1132.07' y='156.28' fill='url(%23SvgjsPattern12128)' transform='rotate(29.51%2c 1306.07%2c 330.28)'%3e%3c/rect%3e%3ccircle r='90' cx='793.69' cy='9.77' stroke='rgba(89%2c 255%2c 100%2c 1)' stroke-width='1' stroke-dasharray='3%2c 2'%3e%3c/circle%3e%3ccircle r='90' cx='836.46' cy='932.36' stroke='rgba(77%2c 255%2c 198%2c 1)' stroke-width='2.92' stroke-dasharray='4%2c 4'%3e%3c/circle%3e%3crect width='96' height='96' clip-path='url(%26quot%3b%23SvgjsClipPath12129%26quot%3b)' x='752.58' y='949.97' fill='url(%23SvgjsPattern12130)' transform='rotate(150.61%2c 800.58%2c 997.97)'%3e%3c/rect%3e%3crect width='288' height='288' clip-path='url(%26quot%3b%23SvgjsClipPath12131%26quot%3b)' x='533.67' y='216.45' fill='url(%23SvgjsPattern12132)' transform='rotate(181.56%2c 677.67%2c 360.45)'%3e%3c/rect%3e%3cpath d='M914.12 256.27L905.54 265.77 894.38 259.49 885.8 268.99 874.64 262.7 866.06 272.21 854.9 265.92' stroke='rgba(243%2c 103%2c 102%2c 1)' stroke-width='2.77' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3crect width='408' height='408' clip-path='url(%26quot%3b%23SvgjsClipPath12133%26quot%3b)' x='814.72' y='679.54' fill='url(%23SvgjsPattern12134)' transform='rotate(73.2%2c 1018.72%2c 883.54)'%3e%3c/rect%3e%3cpath d='M404.73 801.9300000000001 L194.61 562.87L151.0464765906493 831.0235234093508z' stroke='rgba(255%2c 233%2c 104%2c 1)' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask12126'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='348' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern12128'%3e%3crect width='348' height='3' x='0' y='0' fill='rgba(255%2c 233%2c 104%2c 1)'%3e%3c/rect%3e%3crect width='348' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath12127'%3e%3ccircle r='87' cx='1306.07' cy='330.28'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern12130'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(255%2c 233%2c 104%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath12129'%3e%3ccircle r='24' cx='800.58' cy='997.97'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern12132'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(89%2c 255%2c 100%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath12131'%3e%3ccircle r='72' cx='677.67' cy='360.45'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern12134'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(243%2c 103%2c 102%2c 1)' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath12133'%3e%3ccircle r='102' cx='1018.72' cy='883.54'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  position: fixed;
+}
+
+.todo__form {
+  width: 600px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.todo__main {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.todo__title {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.todo__main input[type="text"] {
+  font-size: 1.4rem;
+  border-radius: 5px 0px 0px 5px;
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  color: #071829;
+  background-color: #f3f3f3;
+}
+
+.todo__main button {
+  font-size: 1.4rem;
+  border-radius: 0px 5px 5px 0px;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  color: aliceblue;
+  background-color: rgb(81, 190, 139);
+}
+
+.all__delete {
+  width: 370px;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 0px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  color: aliceblue;
+  background-color: rgb(88, 90, 177);
+}
+
+.all__delete:hover {
+  background-color: rgb(202, 118, 181);
+}
+
+.todo__main button:hover {
+  background-color: rgb(240, 112, 81);
+}
+
+.todo__container {
+  font-size: 18px;
+  list-style-type: none;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.todos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 9px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.todos li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px 5px;
+}
+
+.todos__icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.todos__icon img {
+  width: 24px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.todos input {
+  margin: 0px 5px;
+  padding: 10px;
+}
+
+.todos input:checked ~ li {
+  text-decoration: line-through;
+  color: rgb(139, 139, 139);
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgb(147, 114, 236);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "\2713";
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(81, 190, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alerts {
+  font-size: 18px;
+  padding: 2px 10px;
+}
+
+.success {
+  color: rgb(98, 255, 182);
+}
+
+.warning {
+  color: rgb(246, 248, 95);
+}
+
+.danger {
+  color: rgb(248, 95, 95);
+}
+
+.icon__none {
+  display: none;
+}
