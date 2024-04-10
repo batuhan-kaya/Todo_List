@@ -1,11 +1,20 @@
 # Todo List
+<<<<<<< HEAD
+
+=======
+>>>>>>> ae4c52b6aed158845417077298e15efd24500356
 **to-do list written for practice with pure javascript**
 
 [Live Demo](https://batuhan-todo-list.vercel.app/)
 
+<<<<<<< HEAD
+**Screenshot**
+![Screenshot](/icon/screenshot.webp)
+=======
 
 **Screenshot**
 ![Screenshot](/icon/screenshot.png)
+>>>>>>> ae4c52b6aed158845417077298e15efd24500356
 
 **Languages used**
 
